@@ -1,11 +1,11 @@
 # mb_trains
 Replaces minecarts in Minecraft with rideable trains. I've only tested it in the Windows 10 Edition, but it should work on other devices running Bedrock Edition as well.
 
-![Minecart replacement](https://github.com/FreekBes/mb_trains/blob/master/imgs/better_minecarts.png.png "Minecart replacement")
+![Minecart replacement](https://github.com/FreekBes/mb_trains/blob/master/imgs/better_minecarts.png "Minecart replacement")
 
 The default minecart gets replaced with a train based on the [NS Kameel](https://nl.wikipedia.org/wiki/Kameel_(spoorwegmaterieel)), which can be ridden on by 4 people at the same time. It also has an inventory with 5 slots for luggage.
 
-![Minecart with Chest replacement](https://github.com/FreekBes/mb_trains/blob/master/imgs/better_minecarts_freight.png.png "Minecart with Chest replacement")
+![Minecart with Chest replacement](https://github.com/FreekBes/mb_trains/blob/master/imgs/better_minecarts_freight.png "Minecart with Chest replacement")
 
 The chest minecart gets replaced with a custom freight train. The inventory slots don't change. This train can be ridden on by 2 people at the same time.
 
