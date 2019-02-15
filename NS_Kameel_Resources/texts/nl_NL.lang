@@ -1,0 +1,11 @@
+itemGroup.name.minecart=Treinen and mijnkarretjes
+entity.minecart.name=Trein
+entity.chest_minecart.name=Goederentrein
+item.minecart.name=Trein
+item.chest_minecart.name=Goederentrein
+container.minecart=Trein
+stat.minecartOneCm=Afstand per trein
+achievement.onARail.desc=Reis per trein ten minste 1 kilometer vanaf je startpunt
+action.hint.exit.minecart=Tik op springen om uit de trein te stappen
+action.hint.exit.chest_minecart=Tik op springen om uit de goederentrein te stappen
+action.interact.ride.minecart=Instappen

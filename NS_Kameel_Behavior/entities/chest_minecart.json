@@ -1,0 +1,60 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "minecraft:chest_minecart",
+        "is_spawnable": false,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:type_family": {
+          "family": [ "minecart", "inanimate" ]
+        },
+        "minecraft:collision_box": {
+          "width": 0.98,
+          "height": 0.7
+        },
+        "minecraft:rail_movement": {
+  
+        },
+        "minecraft:tick_world": {
+            "never_despawn": true
+        },
+        "minecraft:inventory": {
+          "container_type": "minecart_chest",
+          "inventory_size": 27,
+          "can_be_siphoned_from": true
+        },
+        "minecraft:rideable": {
+            "seat_count": 2,
+            "interact_text": "action.interact.ride.minecart",
+            "pull_in_entities": false,
+            "seats": [
+                {
+                    "position": [-1.7, 0.3, 0],
+                    "min_rider_count": 0,
+                    "rotate_rider_by": 90,
+                    "lock_rider_rotation": 180
+                },
+                {
+                    "position": [1.7, 0.3, 0],
+                    "min_rider_count": 1,
+                    "rotate_rider_by": -90,
+                    "lock_rider_rotation": 180
+                }
+            ]
+        },
+        "minecraft:rail_sensor": {
+          "eject_on_activate": true
+        },
+        "minecraft:is_stackable": {
+          "value": false
+        },
+        "minecraft:physics": {
+        }
+      }
+  
+    }
+  }
+  

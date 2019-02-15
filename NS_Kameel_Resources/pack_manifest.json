@@ -3,7 +3,7 @@
     "header": {
         "uuid": "26e96116-9622-4fa0-8526-459be1dc7a8a",
         "name": "NS Kameel Resources",
-        "version": [0, 1, 0],
+        "version": [0, 2, 0],
         "min_engine_version": [1, 8, 0],
         "description": "Replaces the default minecart with the Kameel train from NS"
     },
@@ -12,8 +12,12 @@
             "description": "Replaces the default minecart with the Kameel train from NS",
             "type": "resources",
             "uuid": "f235de48-35ae-4165-af54-54111ca7b091",
-            "version": [0, 1, 0]
+            "version": [0, 2, 0]
         }
     ],
-    "dependencies": []
+    "dependencies": [],
+    "metadata" : {
+        "authors" : [ "Freek Bes" ],
+        "url" : "https://freekb.es"
+    }
 }

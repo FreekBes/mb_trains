@@ -1,0 +1,11 @@
+itemGroup.name.minecart=Trains and Minecarts
+entity.minecart.name=Train
+entity.chest_minecart.name=Freight Train
+item.minecart.name=Train
+item.chest_minecart.name=Freight Train
+container.minecart=Train
+stat.minecartOneCm=Distance by Train
+achievement.onARail.desc=Travel by train at least 1 km from where you started
+action.hint.exit.minecart=Tap jump to exit the train
+action.hint.exit.chest_minecart=Tap jump to exit the freight train
+action.interact.ride.minecart=Enter train
