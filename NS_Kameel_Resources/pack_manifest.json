@@ -1,9 +1,9 @@
 {
     "format_version": 1,
     "header": {
-        "uuid": "26e96116-9622-4fa0-8526-459be1dc7a8a",
+        "uuid": "5b14b403-f153-4176-886d-bfff50d9aa57",
         "name": "NS Kameel Resources",
-        "version": [0, 2, 0],
+        "version": [0, 2, 3],
         "min_engine_version": [1, 8, 0],
         "description": "Replaces the default minecart with the Kameel train from NS"
     },
@@ -11,8 +11,8 @@
         {
             "description": "Replaces the default minecart with the Kameel train from NS",
             "type": "resources",
-            "uuid": "f235de48-35ae-4165-af54-54111ca7b091",
-            "version": [0, 2, 0]
+            "uuid": "0b5eea8f-e577-41e1-b670-97d428e990e3",
+            "version": [0, 2, 3]
         }
     ],
     "dependencies": [],

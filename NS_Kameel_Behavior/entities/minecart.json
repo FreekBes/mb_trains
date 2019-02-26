@@ -8,15 +8,73 @@
       "is_experimental": false
     },
 
-    "components": {
-      "minecraft:type_family": {
-        "family": [ "minecart", "inanimate", "mb_trains" ]
+    "component_groups": {
+      "minecraft:mb_trains_convert_to_slow": {
+        "minecraft:timer": {
+          "looping": false,
+          "time": 0.2,
+          "time_down_event": {
+            "filters": {
+              "test": "is_family",
+              "operator": "==",
+              "value": "mb_trains_fast_speed"
+            },
+            "event": "minecraft:mb_trains_slow_down"
+          }
+        }
       },
+      "minecraft:mb_trains_convert_to_fast": {
+        "minecraft:timer": {
+          "looping": false,
+          "time": 0.2,
+          "time_down_event": {
+            "filters": {
+              "test": "is_family",
+              "operator": "==",
+              "value": "mb_trains_default_speed"
+            },
+            "event": "minecraft:mb_trains_speed_up"
+          }
+        }
+      },
+      "minecraft:mb_trains_fast": {
+        "minecraft:type_family": {
+          "family": [ "minecart", "inanimate", "mb_trains", "mb_trains_fast_speed" ]
+        },
+        "minecraft:rail_movement": {
+          "max_speed": 0.8
+        },
+        "minecraft:rail_sensor": {
+          "check_block_types": true,
+          "eject_on_activate": false,
+          "eject_on_deactivate": false,
+          "on_activate": {
+            "event": "minecraft:mb_trains_trigger_slow_down"
+          }
+        }
+      },
+      "minecraft:mb_trains_default": {
+        "minecraft:type_family": {
+          "family": [ "minecart", "inanimate", "mb_trains", "mb_trains_default_speed" ]
+        },
+        "minecraft:rail_movement": {
+          "max_speed": 0.4
+        },
+        "minecraft:rail_sensor": {
+          "check_block_types": true,
+          "eject_on_activate": false,
+          "eject_on_deactivate": false,
+          "on_activate": {
+            "event": "minecraft:mb_trains_trigger_speed_up"
+          }
+        }
+      }
+    },
+
+    "components": {
       "minecraft:collision_box": {
         "width": 0.98,
         "height": 0.7
-      },
-      "minecraft:rail_movement": {
       },
       "minecraft:tick_world": {
         "never_despawn": true
@@ -57,13 +115,58 @@
           }
         ]
       },
-      "minecraft:rail_sensor": {
-        "eject_on_activate": true
-      },
       "minecraft:is_stackable": {
         "value": false
       },
       "minecraft:physics": {
+      }
+    },
+
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": [
+            "minecraft:mb_trains_default"
+          ]
+        }
+      },
+      "minecraft:mb_trains_trigger_speed_up": {
+        "add": {
+          "component_groups": [
+            "minecraft:mb_trains_convert_to_fast"
+          ]
+        }
+      },
+      "minecraft:mb_trains_trigger_slow_down": {
+        "add": {
+          "component_groups": [
+            "minecraft:mb_trains_convert_to_slow"
+          ]
+        }
+      },
+      "minecraft:mb_trains_speed_up": {
+        "remove": {
+          "component_groups": [
+            "minecraft:mb_trains_default"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:mb_trains_fast"
+          ]
+        }
+      },
+      "minecraft:mb_trains_slow_down": {
+        "remove": {
+          "component_groups": [
+            "minecraft:mb_trains_fast"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:mb_trains_default"
+          ]
+        }
       }
     }
   }
