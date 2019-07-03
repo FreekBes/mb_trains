@@ -76,9 +76,6 @@
         "width": 0.98,
         "height": 0.7
       },
-      "minecraft:tick_world": {
-        "never_despawn": true
-      },
       "minecraft:inventory": {
         "container_type": "minecart_hopper",
         "inventory_size": 5,

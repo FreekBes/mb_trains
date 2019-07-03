@@ -19,9 +19,6 @@
       "minecraft:rail_movement": {
 
       },
-      "minecraft:tick_world": {
-        "never_despawn": true
-      },
       "minecraft:inventory": {
         "container_type": "minecart_chest",
         "inventory_size": 27,
