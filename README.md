@@ -1,17 +1,17 @@
 # mb_trains
 Replaces minecarts in Minecraft with rideable trains. I've only tested it in the Windows 10 Edition, but it should work on other devices running Bedrock Edition as well.
 
-*Edit 17-04-2019: the resource pack currently doesn't seem to be working in the latest version(s) of Minecraft. I will look into it asap.*
-
 ![Minecart replacement](https://github.com/FreekBes/mb_trains/blob/master/imgs/better_minecarts.png "Minecart replacement")
 
-The default minecart gets replaced with a train based on the [NS Kameel](https://nl.wikipedia.org/wiki/Kameel_(spoorwegmaterieel)), which can be ridden on by 4 people at the same time. It also has an inventory with 5 slots for luggage.
+The default minecart gets replaced with a train based on the [NS Kameel](https://nl.wikipedia.org/wiki/Kameel_(spoorwegmaterieel)), which can be ridden on by 4 people at the same time.
 
 When the default minecarts goes over an activator rail, it starts running in hyperspeed mode: its max speed will double (16 blocks per second). As soon as the cart runs over an activator rail again, the mode will end and the cart will return to its default speed (which is 8 blocks per second).
 
 ![Minecart with Chest replacement](https://github.com/FreekBes/mb_trains/blob/master/imgs/better_minecarts_freight.png "Minecart with Chest replacement")
 
 The chest minecart gets replaced with a custom freight train. The inventory slots don't change. This train can be ridden on by 2 people at the same time.
+
+*Update 22-11-2019: the chest minecart doesn't seem to be working, due to Minecraft assigning the default minecart texture+model to all minecart types.*
 
 ## Activating the add-on
 You need to activate both the behavior and the resource pack in order for everything to work smoothly. If somehow you are unable to use a behavior pack, the pack will still work with just the resource pack - but it will only be for the eyes, as the extra features (such as 4 people on the same train) will not work.
