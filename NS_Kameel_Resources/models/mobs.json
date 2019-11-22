@@ -1,6 +1,6 @@
 {
     "format_version": "1.8.0",
-    "geometry.bm_minecart": {
+    "geometry.minecart": {
         "texturewidth": 456,
         "textureheight": 194,
         "bones": [
@@ -325,7 +325,7 @@
         ]
     },
 
-    "geometry.bm_chest_minecart": {
+    "geometry.chest_minecart": {
         "texturewidth": 456,
         "textureheight": 194,
         "bones": [
