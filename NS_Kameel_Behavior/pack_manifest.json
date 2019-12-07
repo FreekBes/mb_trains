@@ -1,18 +1,18 @@
 {
     "format_version": 1,
     "header": {
-        "uuid": "a5942129-9ba5-4d85-a4f7-255395824f50",
-        "name": "NS Kameel Behavior",
-        "version": [0, 2, 6],
+        "uuid": "5b80aba3-0346-4d61-8c74-b3c7f0f9c22c",
+        "name": "mb_trains (behaviors)",
+        "version": [0, 2, 7],
         "min_engine_version": [1, 8, 0],
-        "description": "v0.2.6 - Replaces the default minecart with the Kameel train from NS"
+        "description": "v0.2.7 - Replaces the default minecart with the Kameel train from NS"
     },
     "modules": [
         {
-            "description": "v0.2.6 - Replaces the default minecart with the Kameel train from NS",
+            "description": "v0.2.7 - Replaces the default minecart with the Kameel train from NS",
             "type": "data",
-            "uuid": "a235b85c-7377-4124-b641-162769e9eba3",
-            "version": [0, 2, 6]
+            "uuid": "c8bf37ea-957f-4415-8e6a-df00f74ca9aa",
+            "version": [0, 2, 7]
         }
     ],
     "dependencies": [],

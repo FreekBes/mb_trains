@@ -32,14 +32,12 @@
             {
                 "position": [-1.7, 0.3, 0],
                 "min_rider_count": 0,
-                "rotate_rider_by": 90,
-                "lock_rider_rotation": 180
+                "rotate_rider_by": 90
             },
             {
                 "position": [1.7, 0.3, 0],
                 "min_rider_count": 1,
-                "rotate_rider_by": -90,
-                "lock_rider_rotation": 180
+                "rotate_rider_by": -90
             }
         ]
       },
