@@ -1,5 +1,5 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.13.0",
   "minecraft:entity": {
     "description": {
       "identifier": "minecraft:chest_minecart",
@@ -27,7 +27,7 @@
       "minecraft:rideable": {
         "seat_count": 2,
         "interact_text": "action.interact.ride.minecart",
-        "pull_in_entities": false,
+        "pull_in_entities": true,
         "seats": [
             {
                 "position": [-1.7, 0.3, 0],
@@ -49,6 +49,13 @@
         "value": false
       },
       "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:variant": {
+        "value": 1
       }
     }
 

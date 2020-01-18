@@ -1,18 +1,18 @@
 {
-    "format_version": 1,
+    "format_version": 2,
     "header": {
-        "uuid": "5b80aba3-0346-4d61-8c74-b3c7f0f9c22c",
+        "uuid": "4e8fc675-69d8-4b30-8c1d-b36d6dd14f1c",
         "name": "mb_trains (behaviors)",
-        "version": [0, 2, 7],
-        "min_engine_version": [1, 8, 0],
-        "description": "v0.2.7 - Replaces the default minecart with the Kameel train from NS"
+        "version": [0, 3, 0],
+        "min_engine_version": [1, 13, 0],
+        "description": "v0.3.0 b - Replaces the default minecart with the Kameel train from NS"
     },
     "modules": [
         {
-            "description": "v0.2.7 - Replaces the default minecart with the Kameel train from NS",
+            "description": "v0.3.0 beta - Replaces the default minecart with the Kameel train from NS",
             "type": "data",
-            "uuid": "c8bf37ea-957f-4415-8e6a-df00f74ca9aa",
-            "version": [0, 2, 7]
+            "uuid": "568a3f55-00d9-4949-94b8-8a748fc3102a",
+            "version": [0, 3, 0]
         }
     ],
     "dependencies": [],

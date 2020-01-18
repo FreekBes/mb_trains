@@ -1,5 +1,5 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.13.0",
   "minecraft:entity": {
     "description": {
       "identifier": "minecraft:minecart",
@@ -51,6 +51,9 @@
           "on_activate": {
             "event": "minecraft:mb_trains_trigger_slow_down"
           }
+        },
+        "minecraft:variant": {
+          "value": 1
         }
       },
       "minecraft:mb_trains_default": {
@@ -67,6 +70,9 @@
           "on_activate": {
             "event": "minecraft:mb_trains_trigger_speed_up"
           }
+        },
+        "minecraft:variant": {
+          "value": 0
         }
       }
     },
@@ -107,6 +113,10 @@
         "value": false
       },
       "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
       }
     },
 

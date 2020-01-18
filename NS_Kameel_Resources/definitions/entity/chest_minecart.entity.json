@@ -1,14 +1,18 @@
 {
-    "format_version": "1.8.0",
+    "format_version": "1.13.0",
     "minecraft:client_entity": {
-        "description": {
-            "identifier": "minecraft:chest_minecart",
-            "textures": {
-                "default": "textures/entity/minecart"
-            },
-            "geometry": {
-                "default": "geometry.chest_minecart"
-            }
-        }
+      "description": {
+        "identifier": "minecraft:chest_minecart",
+        "materials": { "default": "minecart" },
+        "textures": {
+          "default": "textures/entity/minecart",
+          "freight": "textures/entity/minecart_freight"
+        },
+        "geometry": {
+          "default": "geometry.minecart",
+          "freight": "geometry.chest_minecart"
+        },
+        "render_controllers": [ "controller.render.minecart" ]
+      }
     }
-}
+  }
